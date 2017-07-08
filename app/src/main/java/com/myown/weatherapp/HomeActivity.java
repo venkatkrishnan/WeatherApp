@@ -229,16 +229,16 @@ public class HomeActivity extends AppCompatActivity {
 
         SelectedItem humidity = new SelectedItem();
         humidity.setType(getString(R.string.humidity));
-        humidity.setValue(tempMain.getHumidity());
+        humidity.setValue(tempMain.getHumidity() + getString(R.string.humidity_default));
 
         SelectedItem pressure = new SelectedItem();
         pressure.setType(getString(R.string.pressure));
-        pressure.setValue(tempMain.getPressure());
+        pressure.setValue(tempMain.getPressure() + getString(R.string.pressure_default));
 
         TempWind tempWind = list.getWind();
         SelectedItem wind = new SelectedItem();
         wind.setType(getString(R.string.wind));
-        wind.setValue(tempWind.getSpeed());
+        wind.setValue(tempWind.getSpeed() + getString(R.string.wind_default));
 
         selectedItems.add(humidity);
         selectedItems.add(pressure);

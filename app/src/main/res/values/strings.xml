@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WeatherApp</string>
+    <string name="app_name">Weather</string>
     <string name="title_activity_home">HomeActivity</string>
 
     <string name="no_network">No network connection</string>
@@ -16,6 +16,10 @@
     <string name="daily_graph">Daily Temperature Graph</string>
 
     <string name="settings">Settings</string>
+
+    <string name="humidity_default">%</string>
+    <string name="pressure_default">hPa</string>
+    <string name="wind_default">m/sec</string>
 
     <string name="temp_unit">Temp Unit</string>
     <string name="celsius">\u2103</string>
